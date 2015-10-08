@@ -6,7 +6,7 @@ class Validate {
 	}
 
 	public static function isMobilePhone($mobilePhone) {
-		return preg_match("/^1[358][0-9]{9}$/", $mobilePhone);
+		return preg_match("/^1[34578][0-9]{9}$/", $mobilePhone);
 	}
 
 	public static function isChinese($data) {
